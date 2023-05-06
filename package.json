@@ -1,12 +1,22 @@
 {
-  "name": "material-ui-remix",
+  "name": "material-ui-remix-plus",
   "version": "5.0.0",
   "private": true,
+  "description": "Built from the official MUI boilerplate, enhanced with more tooling",
+  "keywords": [
+    "Material-UI",
+    "React",
+    "Remix",
+    "Boilerplate"
+  ],
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@emotion/cache": "latest",
@@ -20,7 +30,8 @@
     "@remix-run/server-runtime": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "remix": "1.16.0"
+    "react-use": "latest",
+    "remix": "latest"
   },
   "devDependencies": {
     "@remix-run/dev": "latest",
@@ -28,10 +39,5 @@
     "@types/react-dom": "latest",
     "typescript": "latest"
   },
-  "engines": {
-    "node": ">=18"
-  },
-  "sideEffects": false,
-  "keywords": [],
-  "description": ""
+  "sideEffects": false
 }
