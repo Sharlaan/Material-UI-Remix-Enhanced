@@ -31,7 +31,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-use": "latest",
-    "remix": "latest"
+    "remix": "1.16.0"
   },
   "devDependencies": {
     "@remix-run/dev": "latest",
